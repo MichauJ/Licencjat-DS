@@ -1,22 +1,55 @@
-1. Tytuł:
-„Wpływ cech muzycznych na długoterminową popularność utworów wydanych w latach 2000–2019 na Spotify”
-Uzasadnienie:
-Badanie związków między cechami muzycznymi (np. valence, energy, danceability) a popularnością utworów wydanych w latach 2000–2019 na Spotify.
-Analiza pozwoli zrozumieć, które właściwości muzyczne są kluczowe dla trwałego sukcesu niezależnie od roku wydania.
+"Analiza kierunków emigracji Polaków w ostatnich 30 latach: Porównanie czynników ekonomicznych i społecznych wpływających na decyzje emigracyjne"
 
-2. Tytuł:
-„Analiza zmian w preferencjach muzycznych na podstawie utworów Spotify z lat 2000–2019”
-Uzasadnienie:
-Praca skupia się na badaniu, jak zmieniały się cechy muzyczne popularnych utworów na przestrzeni dwóch dekad. Uwzględnia ewolucję
-takich parametrów jak tempo, energy czy danceability, by zidentyfikować zmieniające się gusta słuchaczy.
+Kluczowe aspekty pracy:
+Identyfikacja głównych kierunków emigracji
 
-3. Tytuł:
-„Cechy muzyczne a globalne trendy popularności – analiza najpopularniejszych utworów Spotify z ostatniego roku”
-    Uzasadnienie:
-Praca bada różnice między lokalnymi a globalnymi trendami popularności utworów. Analiza pozwoli zidentyfikować, czy cechy utworów takie jak
-energy, valence czy acousticness różnią się w zależności od regionu lub są uniwersalne na całym świecie.
-    Dodatkowo:
-Ponieważ Spotify nie zapewnia bezpośrednich informacji na temat kraju pochodzenia artysty ani języka utworu, można pokusić się o stworzenie
-klasyfikatora dla tych zmiennych żeby przeanalizować czy w danym kraju słucha się bardziej lokalnych czy zagranicznych twórców
+Wyodrębnienie najpopularniejszych krajów docelowych na przestrzeni dekad, takich jak Niemcy, Wielka Brytania, Holandia, czy kraje skandynawskie.
+Analiza zmian w preferencjach emigracyjnych w czasie (np. po wejściu Polski do UE w 2004 roku).
+Czynniki ekonomiczne
 
+Porównanie sytuacji gospodarczej w Polsce i krajach docelowych (PKB per capita, poziom wynagrodzeń, bezrobocie).
+Wpływ kryzysów gospodarczych w Polsce (np. lata 90., 2008) na wzrost emigracji.
+Znaczenie polityki socjalnej (np. system zasiłków w Niemczech, Wielkiej Brytanii).
+Czynniki społeczne
 
+Rola jakości życia, systemu edukacji, dostępności opieki zdrowotnej i bezpieczeństwa społecznego w decyzjach emigracyjnych.
+Wpływ integracji rodzin (emigracja wtórna) oraz migracji edukacyjnej.
+Porównanie fal emigracji
+
+Fala emigracji po upadku komunizmu w latach 90.
+Masowa emigracja po wejściu Polski do UE (2004).
+Współczesne zmiany w preferencjach emigracyjnych (np. Brexit, rosnąca rola Skandynawii).
+Techniki analizy danych
+
+Użycie danych statystycznych, modeli predykcyjnych i wizualizacji do identyfikacji trendów i czynników decydujących o kierunkach emigracji.
+Możliwe źródła danych:
+GUS (Główny Urząd Statystyczny)
+
+Dane dotyczące migracji Polaków, w tym krajów docelowych i grup wiekowych emigrantów.
+Eurostat
+
+Dane na temat migracji w krajach Unii Europejskiej: skala, kierunki i dynamika zjawiska.
+OECD
+
+Raporty dotyczące migracji zarobkowej, porównanie sytuacji ekonomicznej w Polsce i krajach OECD.
+Bank Światowy (World Bank)
+
+Statystyki gospodarcze i społeczne, które można porównać między Polską a krajami docelowymi.
+Dane Ministerstwa Rodziny i Polityki Społecznej
+
+Informacje na temat skali i charakterystyki emigracji zarobkowej Polaków.
+Raporty z rynku pracy (np. NBP, firmy doradcze)
+
+Analizy wpływu emigracji na polski rynek pracy oraz przyczyny wyjazdów.
+CBOS (Centrum Badania Opinii Społecznej)
+
+Badania ankietowe dotyczące postaw Polaków wobec emigracji i czynników wpływających na decyzję o wyjeździe.
+Badania naukowe (Google Scholar, PubMed)
+
+Artykuły naukowe dotyczące migracji Polaków w kontekście historycznym, ekonomicznym i społecznym.
+Polska w mediach emigracyjnych
+
+Analiza mediów i organizacji polonijnych, np. treści publikowanych w polskojęzycznych serwisach za granicą.
+Serwisy ogłoszeniowe i portale społecznościowe
+
+Analiza ogłoszeń o pracę i dyskusji w społecznościach emigracyjnych (np. grupy na Facebooku, fora emigracyjne).
