@@ -10,9 +10,9 @@ Zmienne:
 
 ---------------------------------------------------------
 
-Nazwa: 
-Źródło:
-Opis:
-Zmienne: 
+Nazwa:  Baza danych GUS
+Źródło: https://dbw.stat.gov.pl/baza-danych
+Opis: możliwość wygenerowania zestawień dla zmiennych powiązanych z liczbą emigracji na pobyt stały (12m+)
+Zmienne: płeć, kraj emigracji, wiek emigranta, wieś/miasto, stan cywilny
 
 ---------------------------------------------------------
