@@ -1,3 +1,3 @@
 # Licencjat-DS
 
-Analiza kierunków emigracji Polaków w ostatnich 30 latach: Porównanie czynników ekonomicznych i społecznych wpływających na decyzje emigracyjne.
+Analiza kierunków emigracji Polaków w latach 2004-2023: Porównanie czynników ekonomicznych i społecznych wpływających na decyzje emigracyjne.
