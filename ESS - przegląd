@@ -1,0 +1,22 @@
+1. ESS - European Social Survey - przeglądanie po tematach
+https://ess.sikt.no/en/?tab=themes&fbclid=IwZXh0bgNhZW0CMTEAAR0HqmdeJdXRF0HFFzV2ohDrD2OeFFxz1MWpTyW02kFIbWp7QBPDmgzWDi4_aem_TC3Q9d_mdtaSkiddItYBoQ
+
+2. Zadanie: Zidentyfikować jedno ciekawe pytanie - zmienną zależną, znaleźć potencjalne inne, bardziej twarde, mierzalne które posłużą jako zmienne niezależne
+
+3. Propozycje 
+=== Category - question - min value - max value - single edition/between editions - ===
+
+Media use and trust - Most people can be trusted or you can't be too careful - 0 - 10 - single edition
+--
+Politics - European Union: European unification go further or gone too far - 0 - 10 - single edition
+--
+Politics - Placement on left/right scale - 0 - 10 - between editions
+--
+Politics - How interested in politics - 1 - 4 - between editions
+--
+Well-being - How happy are you - 0 - 10 - single edition
+--
+Climate change - How worried about climate change - 1 - 5 - single edition
+--
+Gender - How feminine/masculine respondent feels - 0 - 6 - single edition # dwa oddzielne pytania, ale można by je połączyć w jedną skalę -(poczucie męskości) + poczucie kobiecości = wartości bardziej ujemne to wskazanie na męskość, bardziej dodatnie kobiece a blisko zera brak dominującego wskazania
+--
