@@ -222,10 +222,26 @@ odds_ratios_ext_clean
 
 # Dalej kontynuuje tylko z modelem opartym na wartościch skrajnych
 
-# ====== Macierz pomyłek dla df_extremes ======
+#======= Test Hosmera-Lemeshowa
+library(ResourceSelection)
 
 # Predykcja prawdopodobieństwa z modelu krokowego
 pred_ext <- predict(ext_logistic_model_stepwise_clean, type = "response")
+
+y <- ext_logistic_model_stepwise_clean$y
+
+# Test HL (np. 10 grup)
+hl_gof  <- hoslem.test(y, pred_ext, g = 10)
+hl_gof
+# ====== R^2 Nagelkerke
+install.packages("DescTools")
+library(DescTools)
+
+PseudoR2(ext_logistic_model_stepwise_clean, which = "Nagelkerke")
+
+# ====== Macierz pomyłek dla df_extremes ======
+
+
 
 
 # Przekształcenie predykcji do 0/1 według progu 0.5
@@ -235,6 +251,12 @@ predicted_ext <- ifelse(pred_ext > threshold, 1, 0)
 # Macierz pomyłek
 conf_matrix_ext <- table(Prawdziwa = df_extremes_clean$ext_happy_or_not, Predykcja = predicted_ext)
 print(conf_matrix_ext)
+
+# Dokładność
+true_labels <- ext_logistic_model_stepwise_clean$y
+pred_classes <- ifelse(predicted_ext >= 0.5, 1, 0)
+accuracy <- mean(pred_classes == true_labels)
+accuracy
 
 # Czułość (True Positive Rate)
 TP <- conf_matrix_ext[2,2]
@@ -302,6 +324,9 @@ nb_conf_matrix
 
 # Dominująca klasa
 dominant_class <- as.numeric(names(sort(table(df_extremes$ext_happy_or_not), decreasing = TRUE))[1])
+
+# Utworzenie przewidywań — każdy przypadek dostaje dominującą klasę
+mean_based_pred <- rep(dominant_class, nrow(df_extremes_clean))
 
 # Ustawienie poziomów 0 i 1 — nawet jeśli model ich nie przewidział
 mean_based_pred <- factor(mean_based_pred, levels = c(0, 1))
