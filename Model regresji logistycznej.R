@@ -325,6 +325,9 @@ nb_conf_matrix
 # Dominująca klasa
 dominant_class <- as.numeric(names(sort(table(df_extremes$ext_happy_or_not), decreasing = TRUE))[1])
 
+# Utworzenie przewidywań — każdy przypadek dostaje dominującą klasę
+mean_based_pred <- rep(dominant_class, nrow(df_extremes_clean))
+
 # Ustawienie poziomów 0 i 1 — nawet jeśli model ich nie przewidział
 mean_based_pred <- factor(mean_based_pred, levels = c(0, 1))
 true_labels <- factor(df_extremes_clean$ext_happy_or_not, levels = c(0, 1))
